@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 7200px;
+  margin: 0 auto;
+  color: #e76f51;
+}
+
+.header {
+    margin: 0 auto;
+    height: 350px;
+    max-width: 720px;
+    font-weight: 700;
+    color: #ffeb3b;
+    text-shadow: 0px 0px 6px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./images/sulina.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 2px;
+}
+
+.header h2 {
+  font-size: 19px;
+  line-height: 22px;
+  margin-top: 4px;
+  padding: 6px 120px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f5ff6c;
+  /* text-align: justify; */
+  margin-bottom: 0;
+}
+
+.activities {
+  margin: 0 auto;
+  background: #264653;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 6px 0px #e76f51;
+}
+
+.activities-container {
+    display: flex;
+    max-width: 720px;
+    margin: 10px auto;
+  }
+
+  .item {
+    max-width: 200px;
+    margin: 8px;
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+  
+  .guide {
+    max-width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+    background: #264653;
+    box-shadow: 0px 6px 0px #e76f51;
+    border-radius: 10px;
+}
+
+  #img-guide {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 6px;
+  }
+
+  .guide-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+
+  
